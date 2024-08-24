@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Allproducts from "../allproducts/page";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
+import Support from '../../../public/suport.jpg'
 export default function Home() {
   return (
     <div>
@@ -10,7 +10,7 @@ export default function Home() {
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
               <div>
                 <div>
-                  <span className="flex h-12 w-12 items-center justify-center rounded-xl ">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-gray-800">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -31,17 +31,15 @@ export default function Home() {
 
                 <div className="mt-6">
                   <h2 className="text-3xl font-bold tracking-tight text-cyan-300">
-                    Natural Language Processing (NLP):
+                  Customer Support Website
                   </h2>
                   <p className="mt-4 text-lg text-gray-300">
-                    The AI product utilizes advanced NLP algorithms to
-                    understand and interpret human language, enabling it to
-                    accurately process and analyze text-based inputs.
+                  Description: A dedicated platform for managing customer inquiries and support requests, providing efficient solutions and communication tools.
                   </p>
                   <div className="mt-6">
                     <Link
-                      href="../allproducts"
-                      className="inline-flex rounded-lg text-cyan-300   px-4 py-1.5 text-base font-semibold leading-7  shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                      href="/allproducts"
+                      className="inline-flex rounded-lg text-cyan-300 px-4 py-1.5 text-base font-semibold leading-7 shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
                     >
                       See All Products
                     </Link>
@@ -51,13 +49,12 @@ export default function Home() {
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <img
-                  loading="lazy"
-                  width="647"
-                  height="486"
+                <Image
+                  src={Support}
+                  alt="Product Image"
+                  width={647}
+                  height={486}
                   className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  style={{ color: "transparent" }}
-                  src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137"
                 />
               </div>
             </div>

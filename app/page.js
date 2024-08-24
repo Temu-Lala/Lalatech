@@ -83,20 +83,16 @@ const HomePage = () => {
           <Typewriter />
         </div>
         <section className="relative flex flex-1 flex-col  items-center justify-center h-screen text-center">
-          <motion.img
-            src="/path-to-your-hero-image.png"
-            alt="Hero Image"
-            className="w-full max-w-md mx-auto transform hover:scale-110 transition-transform duration-500 z-10"
-            initial={{ scale: 1 }}
-            animate={{ scale: 1.1, transition: { duration: 2 } }}
-          />
+          <p className=" font-bold  text-9xl">
+            👋
+          </p>
           <AnimatedText text="Welcome to the Future" />
           <p className="mt-4 text-lg md:text-2xl text-neon z-10">
             Innovative solutions for a modern world.
           </p>
           <Link
             href="#features"
-            className="mt-10 inline-block px-8 py-4 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-full transition duration-300 hover:animate-pulse neon-button z-10"
+            className="mt-10 inline-block px-8 py-4 text-white font-bold  transition duration-300 hover:animate-pulse neon-button z-10"
           >
             Explore Features
           </Link>

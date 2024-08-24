@@ -12,32 +12,32 @@ export default function Services() {
             {
               title: "Web Development",
               description: "Cutting-edge web solutions to bring your ideas to life.",
-              icon: "/path/to/web-development-icon.svg",
+              icon: "🕸️",
             },
             {
               title: "UI/UX Design",
               description: "Modern and user-friendly designs for the best user experience.",
-              icon: "/path/to/ui-ux-design-icon.svg",
+              icon: "🪟",
             },
             {
-                title: "UI/UX Design",
-                description: "Modern and user-friendly designs for the best user experience.",
-                icon: "/path/to/ui-ux-design-icon.svg",
-              },
-              {
-                title: "UI/UX Design",
-                description: "Modern and user-friendly designs for the best user experience.",
-                icon: "/path/to/ui-ux-design-icon.svg",
-              },
-              {
-                title: "UI/UX Design",
-                description: "Modern and user-friendly designs for the best user experience.",
-                icon: "/path/to/ui-ux-design-icon.svg",
-              },
+              title: "Mobile App Development",
+              description: "Cross-Platform Mobile Apps: Creating apps that work on multiple platforms.",
+              icon: "📲",
+            },
             {
-              title: "Digital Marketing",
+              title: " Desktop App Development",
+              description: "Cross-Platform Desktop Apps: Creating desktop applications that run on multiple operating systems.",
+              icon: "🖥️",
+            },
+            {
+              title: " Enterprise Software Development",
               description: "Strategic marketing to grow your business and reach your audience.",
-              icon: "/path/to/digital-marketing-icon.svg",
+              icon: "👨‍💼",
+            },
+            {
+              title: " Artificial Intelligence & Machine Learning Applications",
+              description: "Machine Learning Models: Building models for data analysis, forecasting, and decision-making.",
+              icon: "🤖",
             },
           ].map((service, index) => (
             <div
@@ -45,13 +45,23 @@ export default function Services() {
               className="bg-gray-800 p-6 rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 hover:shadow-xl"
             >
               <div className="flex items-center justify-center mb-4">
-                <Image
-                  src={service.icon}
-                  alt={`${service.title} Icon`}
-                  width={50}
-                  height={50}
-                  className="animate__animated animate__fadeIn animate__delay-2s"
-                />
+                {service.icon && service.icon.startsWith('http') ? (
+                  <Image
+                    src={service.icon}
+                    alt={`${service.title} Icon`}
+                    width={70}
+                    height={70}
+                    className="animate__animated animate__fadeIn animate__delay-2s   text-4xl "
+                  />
+                ) : (
+                  <span
+                    role="img"
+                    aria-label={`${service.title} Icon`}
+                    className="text-2xl"
+                  >
+                    {service.icon || '🔍'}  {/* Default icon if none is provided */}
+                  </span>
+                )}
               </div>
               <h2 className="text-2xl font-semibold mb-2 text-cyan-300 animate__animated animate__fadeIn animate__delay-2s">
                 {service.title}

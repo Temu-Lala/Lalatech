@@ -1,47 +1,158 @@
 import Image from "next/image";
-
+import Temesgen from "../../../public/Temesgen.JPG";
+import { FaTelegram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+import Surafel from '../../../public/surafel.jpg'
 export default function Home() {
   return (
-    <section className=" text-cyan-300 overflow-hidden">
+    <section className="text-cyan-300 overflow-hidden">
       <div className="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 h-svh flex flex-col justify-center">
         <div className="flex text-cyan-300 flex-col sm:flex-row mx-auto">
-          <a href="#_" className ="  flex flex-col ">
-            {" "}
-            <img
-              src="https://images.unsplash.com/photo-1530035415911-95194de4ebcc?q=80&amp;w=2670&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="rounded-xl  rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom"
-              alt="#_"
-            />{" "}
-              <span >Temesgen Debebe</span>
-          </a>
-          <a href="#_" className ="  flex flex-col ">
-            {" "}
-            <img
-              src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?q=80&amp;w=2672&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
-              className="rounded-xl  -rotate-12 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom"
-              alt="#_"
-            />{" "}
+          <div>
+            <a href="#_" className="flex flex-col">
+              <Image
+                src={Temesgen}
+                className="rounded-xl rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 object-cover hover:scale-150 transform origin-bottom"
+                alt="Temesgen Debebe"
+                width={400} // Replace with actual width
+                height={600} // Replace with actual height
+              />
               <span>Temesgen Debebe</span>
-          </a>
-          <a href="#_" className ="  flex flex-col ">
-            {" "}
-            <img
-              src="https://images.unsplash.com/photo-1586996292898-71f4036c4e07?q=80&amp;w=2670&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="rounded-xl  rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom"
-              alt="#_"
-            />{" "}
-              <span>Temesgen Debebe</span>
-          </a>
-          <a href="#_" className ="  flex flex-col ">
-            {" "}
-            <img
-              src="https://images.unsplash.com/photo-1522775417749-29284fb89f43?q=80&amp;w=2574&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="rounded-xl  -rotate-12 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom"
-              alt="#_"
-            />{" "}
-                        <span>Temesgen Debebe</span>
+            </a>
+            <div className="flex gap-12 text-3xl">
+            <a
+        href="https://t.me/TD_lala" // Replace with your actual Telegram link
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Telegram"
+      >
+        <FaTelegram size={32} className="hover:text-blue-500" />
+      </a>
 
-          </a>
+     
+      <a
+        href="mailto:youremail@example.com" // Replace with your actual email
+        aria-label="Email"
+      >
+        <MdEmail size={32} className="hover:text-red-500" />
+      </a>
+      <a
+        href="mailto:youremail@example.com" // Replace with your actual email
+        aria-label="Email"
+      >
+        <FaLinkedin size={32} className="hover:text-blue-500" />
+      </a>
+            </div>
+          </div>
+          <div>
+            <a href="#_" className="flex flex-col">
+              <Image
+                src={Surafel}
+                className="rounded-xl rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 object-cover hover:scale-150 transform origin-bottom"
+                alt="Temesgen Debebe"
+                width={400} // Replace with actual width
+                height={600} // Replace with actual height
+              />
+              <span>Surafel Siyum</span>
+            </a>
+            <div className="flex gap-12 text-3xl">
+            <a
+        href="https://t.me/Su_Rifle" // Replace with your actual Telegram link
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Telegram"
+      >
+        <FaTelegram size={32} className="hover:text-blue-500" />
+      </a>
+
+    
+      <a
+        href="mailto:youremail@example.com" // Replace with your actual email
+        aria-label="Email"
+      >
+        <MdEmail size={32} className="hover:text-red-500" />
+      </a>
+      <a
+        href="mailto:youremail@example.com" // Replace with your actual email
+        aria-label="Email"
+      >
+        <FaLinkedin size={32} className="hover:text-blue-500" />
+        </a>
+            </div>
+          </div>
+          <div>
+            <a href="#_" className="flex flex-col">
+              <Image
+                src={Temesgen}
+                className="rounded-xl rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 object-cover hover:scale-150 transform origin-bottom"
+                alt="Temesgen Debebe"
+                width={400} // Replace with actual width
+                height={600} // Replace with actual height
+              />
+              <span>Minilik Belachew</span>
+            </a>
+            <div className="flex gap-12 text-3xl">
+            <a
+        href="https://t.me/Su_Rifle" // Replace with your actual Telegram link
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Telegram"
+      >
+        <FaTelegram size={32} className="hover:text-blue-500" />
+      </a>
+
+      {/* Email Icon */}
+      <a
+        href="mailto:youremail@example.com" // Replace with your actual email
+        aria-label="Email"
+      >
+        <MdEmail size={32} className="hover:text-red-500" />
+      </a>
+      <a
+        href="mailto:youremail@example.com" // Replace with your actual email
+        aria-label="Email"
+      >
+        <FaLinkedin size={32} className="hover:text-blue-500" />
+        </a>
+            </div>
+          </div>
+          <div>
+            <a href="#_" className="flex flex-col">
+              <Image
+                src={Temesgen}
+                className="rounded-xl rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 object-cover hover:scale-150 transform origin-bottom"
+                alt="Temesgen Debebe"
+                width={400} // Replace with actual width
+                height={600} // Replace with actual height
+              />
+              <span>Abrham Shiferaw</span>
+            </a>
+            <div className="flex gap-12 text-3xl">
+            <a
+        href="https://t.me/huslte_respect_loyality" // Replace with your actual Telegram link
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Telegram"
+      >
+        <FaTelegram size={32} className="hover:text-blue-500" />
+      </a>
+
+      {/* Email Icon */}
+      <a
+        href="mailto:youremail@example.com" // Replace with your actual email
+        aria-label="Email"
+      >
+        <MdEmail size={32} className="hover:text-red-500" />
+      </a>
+      <a
+        href="mailto:youremail@example.com" // Replace with your actual email
+        aria-label="Email"
+      >
+        <FaLinkedin size={32} className="hover:text-blue-500" />
+        </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
