@@ -4,15 +4,19 @@ import { FaTelegram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import Surafel from '../../../public/surafel.jpg'
+import { FcBusinessman } from "react-icons/fc";
+import Imoje from '../../../public/imoji.jpg'
+import Aboutcompany from './aboutcompany/page'
 export default function Home() {
   return (
     <section className="text-cyan-300 overflow-hidden">
+<Aboutcompany/>
       <div className="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 h-svh flex flex-col justify-center">
         <div className="flex text-cyan-300 flex-col sm:flex-row mx-auto">
           <div>
             <a href="#_" className="flex flex-col">
               <Image
-                src={Temesgen}
+                src={Imoje}
                 className="rounded-xl rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 object-cover hover:scale-150 transform origin-bottom"
                 alt="Temesgen Debebe"
                 width={400} // Replace with actual width
@@ -48,7 +52,7 @@ export default function Home() {
           <div>
             <a href="#_" className="flex flex-col">
               <Image
-                src={Surafel}
+                src={Imoje}
                 className="rounded-xl rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 object-cover hover:scale-150 transform origin-bottom"
                 alt="Temesgen Debebe"
                 width={400} // Replace with actual width
@@ -84,7 +88,7 @@ export default function Home() {
           <div>
             <a href="#_" className="flex flex-col">
               <Image
-                src={Temesgen}
+                src={Imoje}
                 className="rounded-xl rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 object-cover hover:scale-150 transform origin-bottom"
                 alt="Temesgen Debebe"
                 width={400} // Replace with actual width
@@ -120,7 +124,7 @@ export default function Home() {
           <div>
             <a href="#_" className="flex flex-col">
               <Image
-                src={Temesgen}
+                src={Imoje}
                 className="rounded-xl rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 object-cover hover:scale-150 transform origin-bottom"
                 alt="Temesgen Debebe"
                 width={400} // Replace with actual width
