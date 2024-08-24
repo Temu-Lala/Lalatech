@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Typewriter from "./components/typewriter";
 import Product from './(page)/products/page'
 import Services from "./(page)/service/page";
+import Testimonials from "./(page)/testemonay/page";
 // Animated Text Component
 const AnimatedText = ({ text }) => {
   const [displayedText, setDisplayedText] = useState("");
@@ -101,6 +102,7 @@ const HomePage = () => {
 
       <Product/>
      <Services/>
+<Testimonials/>
       <section
         id="features"
         className="relative py-20 bg-opacity-70 backdrop-blur-lg bg-gray-800 glassmorphism z-10"

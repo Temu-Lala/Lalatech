@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Support from '../../../public/suport.jpg'
 import Uniconnect from '../../../public/uniconect.jpg'
+import Cars from '../../../public/car.jpg'
 export default function Home() {
   return (
     <div>
@@ -95,15 +96,16 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <Image
-                  src={""}
+            <div className=" flex relative mt-12 sm:mt-16 lg:mt-0">
+              <div className="-mr-48 pl-6  md:-mr-16 lg:relative   lg:m-0 lg:h-full lg:px-0">
+              <div>   <Image
+                  src={Cars}
                   alt="Product Image"
                   width={647}
                   height={486}
                   className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                />
+                /></div>
+                
               </div>
             </div>
           </div>
