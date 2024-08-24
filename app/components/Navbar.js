@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <header className="shadow bg-neutral-800 text-cyan-300 sticky top-0 z-50 w-full mb-2">
       <div className="relative flex max-w-screen-xl flex-col overflow-hidden px-4 py-4 md:mx-auto md:flex-row md:items-center">
-        <a href="#" className="flex items-center whitespace-nowrap text-2xl font-black">
+        <a href="/" className="flex items-center whitespace-nowrap text-2xl font-black">
           <span className="mr-2">
             <Image src={Logo} alt="Logo"  className="  rounded-full  w-20 h-20" />
           </span>

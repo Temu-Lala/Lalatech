@@ -24,7 +24,7 @@ const Testimonials = () => {
                 className="rounded-full border-2 border-gray-600"
               />
               <div className="ml-4">
-                <h3 className="text-xl font-bold">አምላክ ተስፋዬ</h3>
+                <h3 className="text-xl font-bold">በአምላክ </h3>
                 <p className="text-gray-400">የኩባንያ አስተዳደር</p>
               </div>
             </div>
@@ -43,7 +43,7 @@ const Testimonials = () => {
                 className="rounded-full border-2 border-gray-600"
               />
               <div className="ml-4">
-                <h3 className="text-xl font-bold">ግሩም አስፋይ</h3>
+                <h3 className="text-xl font-bold">ግሩም </h3>
                 <p className="text-gray-400"> ወኪል</p>
               </div>
             </div>
@@ -62,7 +62,7 @@ const Testimonials = () => {
                 className="rounded-full border-2 border-gray-600"
               />
               <div className="ml-4">
-                <h3 className="text-xl font-bold">አሌክስ ጆንሰን</h3>
+                <h3 className="text-xl font-bold">አሌክስ </h3>
                 <p className="text-gray-400">ማንጅር  C</p>
               </div>
             </div>
@@ -82,7 +82,7 @@ const Testimonials = () => {
                 className="rounded-full border-2 border-gray-600"
               />
               <div className="ml-4">
-                <h3 className="text-xl font-bold">ሳራ ዊሊያምስ</h3>
+                <h3 className="text-xl font-bold">ሳራ </h3>
                 <p className="text-gray-400">ዲዛይነር  D</p>
               </div>
             </div>
@@ -101,7 +101,7 @@ const Testimonials = () => {
                 className="rounded-full border-2 border-gray-600"
               />
               <div className="ml-4">
-                <h3 className="text-xl font-bold">ማይካኤል ብራውን</h3>
+                <h3 className="text-xl font-bold">ተስፋዬ</h3>
                 <p className="text-gray-400">ዳይሬክተር </p>
               </div>
             </div>
