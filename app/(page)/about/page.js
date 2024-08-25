@@ -11,9 +11,9 @@ import { FaLink } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <section className="text-cyan-300 overflow-hidden">
+    <section className="no-scroll text-cyan-300  overflow-hidden">
       <Aboutcompany />
-      <div className="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 h-svh flex flex-col justify-center">
+      <div className=" no-scroll max-w-screen-xl overflow-y-scroll 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 h-svh flex flex-col justify-center">
         <div className="flex text-cyan-300 flex-col sm:flex-row mx-auto">
           
           <div>
